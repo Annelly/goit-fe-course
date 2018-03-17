@@ -110,19 +110,15 @@
                                                                                                                             font-size: 16px;
                                                                                                                         }
                                                                                                                         
-                                                                                                                        .line-line {
+                                                                                                                        .line-line::after {
                                                                                                                             background: #1abc9c;
                                                                                                                             height: 5px;
                                                                                                                             width: 300px;
                                                                                                                             margin: auto;
                                                                                                                         }
                                                                                                                         
-                                                                                                                        .btn-load {
-                                                                                                                            display: inline-block;
-                                                                                                                            height: 58px;
-                                                                                                                            width: 159px;
+                                                                                                                        input {
                                                                                                                             background: #1abc9c;
-                                                                                                                            text-decoration: transparent;
-                                                                                                                            text-align: center;
-                                                                                                                            color: #555252;
+                                                                                                                            width: 100px;
+                                                                                                                            height: 20px;
                                                                                                                         }
