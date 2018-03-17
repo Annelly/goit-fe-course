@@ -117,7 +117,7 @@
                                                                                                                             margin: auto;
                                                                                                                         }
                                                                                                                         
-                                                                                                                        input {
+                                                                                                                        input:hover {
                                                                                                                             background: #1abc9c;
                                                                                                                             width: 100px;
                                                                                                                             height: 20px;
