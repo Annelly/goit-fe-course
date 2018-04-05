@@ -28,18 +28,10 @@
     width: 600px;
     margin: 0;
     padding: 0;
+    border-bottom: #f38181;
 }
 
-hr {
-    width: 52px;
-    height: 2px;
-    opacity: 0;
-    background-color: #f38181;
-    transition-property: all;
-    transition-duration: 200ms linear;
-}
-
-hr:hover {
+.site-navigation:hover {
     opacity: 1;
 }
 
@@ -68,6 +60,7 @@ h2 {
     font-family: "Montserrat";
     font-weight: bold;
     text-align: center;
+    border-bottom: #f38181;
 }
 
 li {
