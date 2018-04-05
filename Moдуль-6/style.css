@@ -1,0 +1,286 @@
+.wrapper {
+    width: 1300px;
+    margin: auto;
+    padding: 0;
+    background: #ffffff;
+    position: relative;
+}
+
+.page-nav {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-logo {
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #95e1d3;
+    text-decoration: none;
+}
+
+.site-navigation {
+    justify-content: space-between;
+    display: flex;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 52px;
+    height: 2px;
+    opacity: 0;
+    background-color: #f38181;
+    transition-property: all;
+    transition-duration: 200ms linear;
+}
+
+hr:hover {
+    opacity: 1;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #f38181;
+}
+
+.menu-link {
+    color: #95e1d3;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat";
+}
+
+.cursive {
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    font-family: "Kaushan Script";
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.site-article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 290px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.article-card {
+    flex: 0 0 350px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    height: 125px;
+    overflow: hidden;
+}
+
+.mini {
+    float: left;
+    width: 44px;
+    height: 35px;
+    overflow: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    color: rgb(51, 51, 51);
+    font-family: "Montserrat";
+    margin: 10px;
+    padding: 0;
+}
+
+.site-article:nth-child(6) {
+    margin-right: 0;
+}
+
+.top-p {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    font-family: "Montserrat";
+}
+
+.article {
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(153, 153, 153);
+    font-family: "Roboto";
+    margin: 0;
+}
+
+.team-article {
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(153, 153, 153);
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 0;
+}
+
+.name {
+    font-size: 19px;
+    color: rgb(51, 51, 51);
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.work {
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(153, 153, 153);
+    font-family: "Roboto";
+    font-style: italic;
+    text-align: center;
+}
+
+.team-list-item {
+    width: 380px;
+    height: 550px;
+    position: relative;
+    transition-property: all;
+    transition-duration: 200ms linear;
+}
+
+.team-list-item:hover {
+    box-shadow: 10px 15px #95e1d3;
+}
+
+.overlay {
+    background-image: linear-gradient(#ee8a88, #f0d889);
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 200ms linear;
+}
+
+.overlay:hover {
+    opacity: 0.6;
+}
+
+.card-button1 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    border: #ee8a88;
+    padding: 0;
+    margin: 0;
+    background-color: #fce38a;
+    background-image: url(facebook.png);
+    top: 50%;
+    left: 80px;
+}
+
+.card-button2 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    border: #ee8a88;
+    padding: 0;
+    margin: 0;
+    background-color: #fce38a;
+    background-image: url(twitter.png);
+    top: 50%;
+    left: 131px;
+}
+
+.card-button3 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    border: #ee8a88;
+    background-color: #fce38a;
+    background-image: url(pinterest.png);
+    top: 50%;
+    left: 182px;
+}
+
+.card-button4 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    border: #ee8a88;
+    background-color: #fce38a;
+    background-image: url(instagram.png);
+    top: 50%;
+    left: 233px;
+}
+
+.card-button1 .card-button2 .card-button3 .card-button4:hover {
+    background-color: #95e1d3;
+}
+
+footer {
+    position: relative;
+}
+
+.footer {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-family: "Montserrat";
+    transition-property: all;
+    transition-duration: 200ms linear;
+}
+
+.footer:hover {
+    color: #f38181;
+}
+
+textarea {
+    position: absolute;
+    bottom: 5px;
+    right: 151px;
+    border: #e7e7e7;
+    width: 240px;
+    height: 40px;
+    color: #e7e7e7;
+    background-color: #ffffff;
+}
+
+#button {
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    padding: 0;
+}
