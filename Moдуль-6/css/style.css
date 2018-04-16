@@ -27,8 +27,7 @@
     display: flex;
     width: 600px;
     margin: 0;
-    padding: 0;
-    border-bottom: #f38181;
+    padding: 10;
 }
 
 .site-navigation:hover {
@@ -38,6 +37,8 @@
 .site-navigation a:hover,
 .site-navigation a:focus {
     color: #f38181;
+    border-bottom: 10px;
+    border-bottom-color: #f38181;
 }
 
 .menu-link {
@@ -55,12 +56,28 @@
 }
 
 h2 {
+    position: relative;
     font-size: 30px;
     color: rgb(51, 51, 51);
     font-family: "Montserrat";
     font-weight: bold;
     text-align: center;
-    border-bottom: #f38181;
+}
+
+h2::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #f38181;
+    bottom: 0;
+    left: 0;
+    transition: width .5s;
+}
+
+h2:hover::after {
+    left: 300px;
+    width: 50%;
 }
 
 li {
@@ -85,6 +102,10 @@ li {
     margin-bottom: 20px;
     height: 125px;
     overflow: hidden;
+}
+
+.article-card :nth-child(n-3) {
+    margin-right: 0;
 }
 
 .mini {
@@ -190,7 +211,7 @@ p {
     padding: 0;
     margin: 0;
     background-color: #fce38a;
-    background-image: url(facebook.png);
+    background-image: url('../img/facebook.png');
     top: 50%;
     left: 80px;
 }
@@ -203,7 +224,7 @@ p {
     padding: 0;
     margin: 0;
     background-color: #fce38a;
-    background-image: url(twitter.png);
+    background-image: url('../img/twitter.png');
     top: 50%;
     left: 131px;
 }
@@ -214,7 +235,7 @@ p {
     height: 40px;
     border: #ee8a88;
     background-color: #fce38a;
-    background-image: url(pinterest.png);
+    background-image: url('../img/pinterest.png');
     top: 50%;
     left: 182px;
 }
@@ -225,7 +246,7 @@ p {
     height: 40px;
     border: #ee8a88;
     background-color: #fce38a;
-    background-image: url(instagram.png);
+    background-image: url('../img/instagram.png');
     top: 50%;
     left: 233px;
 }
