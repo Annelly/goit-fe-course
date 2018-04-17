@@ -30,6 +30,25 @@
     padding: 10;
 }
 
+.links {
+    position: relative;
+}
+
+a::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #f38181;
+    bottom: 0;
+    left: 0;
+    transition: width .3s;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
 .site-navigation:hover {
     opacity: 1;
 }
