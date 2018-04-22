@@ -292,10 +292,22 @@ h2 {
     border-radius: 10px;
 }
 
-.profile-form input[type='name']:valid {
-    border-color: #03ac44;
+.profile-form input[type='email']:valid {
+    outline: 2px solid ButtonText;
+    outline-color: #058124;
 }
 
 .profile-form input[type='email']:invalid {
-    border-color: #b60404;
+    outline: 2px solid ButtonText;
+    outline-color: #af1616;
+}
+
+.profile-form input[type='text']:valid {
+    outline: 2px solid ButtonText;
+    outline-color: #058124;
+}
+
+.profile-form input[type='text']:invalid {
+    outline: 2px solid ButtonText;
+    outline-color: #af1616;
 }
