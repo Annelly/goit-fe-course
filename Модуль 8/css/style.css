@@ -37,6 +37,13 @@
     position: relative;
 }
 
+.baner-content {
+    min-width: 320px;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
 .baner {
     max-height: 100%;
     height: auto;
