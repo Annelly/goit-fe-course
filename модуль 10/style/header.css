@@ -1,0 +1,123 @@
+.header {
+    min-height: 1000px;
+    margin: auto;
+    background-image: url(../img/base@1x.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-menu__logo {
+    font-size: 30px;
+    font-style: bold;
+    color: #ffffff;
+    text-decoration: none;
+    width: 130px;
+    height: 68px;
+    margin-top: 16px;
+}
+
+.top-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-height: 100px;
+    width: 1196px;
+    margin: auto;
+}
+
+.top-menu__text {
+    color: #ffffff;
+    font-family: "Kaushan Script";
+    font-size: 72px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.top-menu__title {
+    color: #ffffff;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 140px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+}
+
+.top-menu__button {
+    display: block;
+    width: 160px;
+    min-height: 40px;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 70px;
+    outline: none;
+}
+
+.top-menu__links {
+    width: 620px;
+    min-height: 50px;
+}
+
+.top-menu-links__item {
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+    min-height: 34px;
+}
+
+.menu-links__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu-links__link:hover::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #fce38a;
+    margin: auto;
+}
+
+.top-menu-links__about:hover::after {
+    width: 67px;
+}
+
+.top-menu-links__service:hover::after {
+    width: 38px;
+}
+
+.top-menu-links__work:hover::after {
+    width: 46px;
+}
+
+.top-menu-links__blog:hover::after {
+    width: 60px;
+}
+
+.top-menu-links__contact:hover::after {
+    width: 51px;
+}
+
+.top-menu-links__icon {
+    fill: #ffffff;
+    width: 14px;
+    height: 14px;
+}
+
+.top-menu-links__icon:hover {
+    fill: #fce38a;
+    text-decoration: none;
+}

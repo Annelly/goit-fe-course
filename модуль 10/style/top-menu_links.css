@@ -1,0 +1,60 @@
+.top-menu_links {
+    width: 620px;
+    min-height: 50px;
+}
+
+.main-nav-menu__item {
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+    min-height: 34px;
+}
+
+.top-menu-links__item {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top-menu-links__item:hover::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #fce38a;
+    margin: auto;
+}
+
+.top-menu-links__icon:hover {
+    fill: #fce38a;
+    text-decoration: none;
+}
+
+.top-menu-links__link:hover {
+    color: #fce38a;
+    -webkit-text-decoration-style: bold;
+    text-decoration-style: bold;
+    cursor: pointer;
+}
+
+.top-menu-links__contact:hover::after {
+    width: 67px;
+}
+
+.top-menu-links__blog:hover::after {
+    width: 38px;
+}
+
+.top-menu-links__work:hover::after {
+    width: 46px;
+}
+
+.top-menu-links__service:hover::after {
+    width: 60px;
+}
+
+.top-menu-links__about:hover::after {
+    width: 51px;
+}
