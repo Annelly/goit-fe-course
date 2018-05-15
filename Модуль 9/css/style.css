@@ -151,6 +151,9 @@ li {
 
 .card-box {
     position: relative;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
     text-align: center;
     margin: 0;
     width: 290px;
@@ -241,7 +244,7 @@ li {
         background-size: cover;
         height: 600px;
         background-repeat: no-repeat;
-        margin: auto;
+        margin: 0;
         padding: 0;
     }
 }
@@ -250,6 +253,7 @@ li {
     .container {
         min-width: 576px;
         max-width: 991px;
+        margin: 0;
     }
     .baner {
         background-image: url(../img/fullshot-600.jpg);
@@ -257,9 +261,6 @@ li {
         background-size: cover;
         background-repeat: no-repeat;
         height: 700px;
-    }
-    .card-box {
-        flex-wrap: wrap;
         margin: 0;
     }
 }
@@ -278,9 +279,5 @@ li {
         background-size: cover;
         background-repeat: no-repeat;
         height: 700px;
-    }
-    
-    .card-box {
-        margin: 0;
     }
 }
