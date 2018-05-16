@@ -70,7 +70,6 @@
     max-width: 1900px;
     height: auto;
     padding: 0;
-    margin: 0;
 }
 
 .baner:hover {
@@ -253,7 +252,6 @@ li {
     .container {
         min-width: 576px;
         max-width: 991px;
-        margin: 0;
     }
     .baner {
         background-image: url(../img/fullshot-600.jpg);
