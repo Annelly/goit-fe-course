@@ -252,10 +252,11 @@ li {
     .container {
         min-width: 576px;
         max-width: 991px;
+        margin: 0;
     }
     .baner {
         background-image: url(../img/fullshot-600.jpg);
-        background-position: 100%;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         height: 700px;
