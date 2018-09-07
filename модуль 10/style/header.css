@@ -74,7 +74,7 @@
     min-height: 34px;
 }
 
-.menu-links__link {
+.top-menu-links__link {
     text-decoration: none;
     color: #ffffff;
     font-size: 22px;
@@ -83,7 +83,7 @@
     font-weight: 400;
 }
 
-.menu-links__link:hover::after {
+.top-menu-links__link:hover::after {
     content: "";
     display: block;
     height: 3px;
